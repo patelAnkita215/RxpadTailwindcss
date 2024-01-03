@@ -797,6 +797,10 @@ video {
   height: 100%;
 }
 
+.h-7 {
+  height: 1.75rem;
+}
+
 .min-h-svh {
   min-height: 100svh;
 }
@@ -837,8 +841,16 @@ video {
   width: 100%;
 }
 
+.w-7 {
+  width: 1.75rem;
+}
+
 .flex-1 {
   flex: 1 1 0%;
+}
+
+.shrink-0 {
+  flex-shrink: 0;
 }
 
 .-translate-x-full {
@@ -922,6 +934,10 @@ video {
   border-width: 4px;
 }
 
+.border-2 {
+  border-width: 2px;
+}
+
 .border-b-4 {
   border-bottom-width: 4px;
 }
@@ -953,6 +969,11 @@ video {
 .border-teal-800 {
   --tw-border-opacity: 1;
   border-color: rgb(17 94 89 / var(--tw-border-opacity));
+}
+
+.border-white {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
 .bg-black {
@@ -999,8 +1020,16 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-about-img {
+  background-image: url('../src/assets/images/abt_bnr.png');
+}
+
 .bg-cloud-bg {
   background-image: url('../src/assets/images/badges-gray.png');
+}
+
+.bg-contact-img {
+  background-image: url('../src/assets/images/cntct_bnr.png');
 }
 
 .bg-dot-bg {
@@ -1251,6 +1280,11 @@ video {
 .text-zinc-300 {
   --tw-text-opacity: 1;
   color: rgb(212 212 216 / var(--tw-text-opacity));
+}
+
+.text-zinc-900 {
+  --tw-text-opacity: 1;
+  color: rgb(24 24 27 / var(--tw-text-opacity));
 }
 
 .opacity-80 {
@@ -1530,6 +1564,10 @@ video {
 
   .lg\:w-44 {
     width: 11rem;
+  }
+
+  .lg\:max-w-7xl {
+    max-width: 80rem;
   }
 
   .lg\:grid-cols-4 {
