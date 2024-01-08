@@ -663,14 +663,6 @@ video {
   z-index: 40;
 }
 
-.col-span-12 {
-  grid-column: span 12 / span 12;
-}
-
-.col-span-6 {
-  grid-column: span 6 / span 6;
-}
-
 .-m-1 {
   margin: -0.25rem;
 }
@@ -1101,6 +1093,16 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-gray-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(107 114 128 / var(--tw-bg-opacity));
+}
+
+.bg-gray-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
 }
 
 .bg-about-img {
